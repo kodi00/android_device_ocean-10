@@ -23,7 +23,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from ocean device
-$(call inherit-product, $(LOCAL_PATH)/device.mk)
+$(call inherit-product, $(LOCAL_PATH)/device.mk
+
+TARGET_ARCH := arm64
 
 PRODUCT_BRAND := motorola
 PRODUCT_DEVICE := ocean
