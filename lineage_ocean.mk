@@ -37,7 +37,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
         PRODUCT_NAME=ocean \
 	PRIVATE_BUILD_DESC="ocean-user 9 PPO29.114-134 fee207 release-keys"
 
-BUILD_FINGERPRINT := google/coral/coral:10/QQ2A.200405.003/6156912:user/release-keys
-
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.build.fingerprint="google/coral/coral:10/QQ2A.200405.003/6156912:user/release-keys"
+# Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
+BUILD_FINGERPRINT := motorola/ocean_retail/ocean:10/QPO30.52-5/58b45:user/release-keys
