@@ -48,6 +48,17 @@ vendor/etc/init/motorola.hardware.tv@1.0-service.rc
 vendor/lib64/hw/motorola.hardware.tv@1.0-impl.so
 vendor/lib64/motorola.hardware.tv@1.0.so
 
+# Fingerprint
+vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice
+vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
+vendor/etc/permissions/android.hardware.fingerprint.xml
+vendor/framework/com.fingerprints.extension.jar
+vendor/lib64/com.fingerprints.extension@1.0.so
+vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
+vendor/lib/vendor.qti.hardware.fingerprint@1.0.so
+-lib/vendor.qti.hardware.fingerprint@1.0.so
+-framework/vendor.qti.hardware.fingerprint-V1.0-java.jar
+
 # Prebuilt Modules
 vendor/lib/modules/abov_sar.ko
 vendor/lib/modules/audio_adsp_loader.ko
