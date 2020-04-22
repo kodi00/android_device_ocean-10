@@ -37,7 +37,8 @@
     <!-- Height of the status bar -->
     <dimen name="status_bar_height_portrait">53.0px</dimen>
     <dimen name="status_bar_height_landscape">24.0dp</dimen>
-	 <!-- MMS user agent string -->
+
+    <!-- MMS user agent string -->
     <string name="config_mms_user_agent">motog7power</string>
 
     <!-- Configure wifi tcp buffersizes in the form:
