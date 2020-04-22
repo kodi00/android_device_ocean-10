@@ -23,7 +23,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from ocean device
-$(call inherit-product, $(LOCAL_PATH)/device.mk
+$(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 TARGET_ARCH := arm64
 
@@ -35,7 +35,7 @@ PRODUCT_MODEL := moto g(7) power
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
         PRODUCT_NAME=ocean \
-	PRIVATE_BUILD_DESC="ocean-user 9 PPO29.114-134 fee207 release-keys"
+	PRIVATE_BUILD_DESC="ocean-user 10 QP030.52-5 58b45 release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := motorola/ocean_retail/ocean:10/QPO30.52-5/58b45:user/release-keys
