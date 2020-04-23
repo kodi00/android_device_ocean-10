@@ -1,5 +1,5 @@
 
-Device configuration for Motorola g7 (ocean)
+Device configuration for Motorola g7 Power (ocean)
 ==================================
 
 Basic   | Spec Sheet
@@ -17,4 +17,4 @@ Display | 2270 x 1080 pixels, 6.2-inch IPS LCD
 Rear Camera  | 12 MP (f/1.8, 1.25µm, PDAF)
 Front Camera | 8 MP 1.12µm, HDR
 
-![Motorola g7] (https://fdn2.gsmarena.com/vv/pics/motorola/motorola-moto-g7-power-1.jpg)
+![Motorola g7 power](https://fdn2.gsmarena.com/vv/pics/motorola/motorola-moto-g7-power-1.jpg "Motorola g7 power")
