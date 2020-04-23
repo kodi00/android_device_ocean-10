@@ -33,3 +33,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=320
+   
+# Disable privapp 
+PRODUCT_PROPERTY_OVERRIDES += \
+           ro.control_privapp_permissions=disable
+    
