@@ -50,8 +50,8 @@
 	<ctl name="RX1 MIX1 INP2" value="ZERO" />
 	<ctl name="RX1 MIX1 INP1" value="ZERO" />
 	<ctl name="EAR_S" value="ZERO" />
-	<ctl name="HPHL" value="20" />
-	<ctl name="HPHR" value="20" />
+	<ctl name="HPHL" value="ZERO" />
+	<ctl name="HPHR" value="ZERO" />
 	<ctl name="SPK" value="ZERO" />
 
 	<ctl name="Speaker Boost" value="DISABLE" />
