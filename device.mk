@@ -14,6 +14,9 @@
 # limitations under the License.
 #
 
+#Gapps Package
+GAPPS_VARIANT := stock
+
 # Vendor blobs
 $(call inherit-product-if-exists, vendor/motorola/ocean/ocean-vendor.mk)
 
@@ -77,3 +80,6 @@ $(call inherit-product, device/motorola/sdm632-common/common.mk)
 
 # GMS
 $(call inherit-product-if-exists, vendor/google/products/gms.mk)
+
+#Gapps
+$(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
