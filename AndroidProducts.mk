@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/descendant_ocean.mk
+    $(LOCAL_DIR)/derp_ocean.mk
 
 COMMON_LUNCH_CHOICES := \
-    descendant_ocean-eng \
-    descendant_ocean-user \
-    descendant_ocean-userdebug
+    derp_ocean-eng \
+    derp_ocean-user \
+    derp_ocean-userdebug
